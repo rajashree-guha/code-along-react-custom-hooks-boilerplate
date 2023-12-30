@@ -16,7 +16,7 @@ function storeText(key, initValue) {
 }
 
 function UseStorage(key, initValue) {
-  
+
   const [text, setText] = useState(() => storeText(key, initValue));
 
   useEffect(() => {

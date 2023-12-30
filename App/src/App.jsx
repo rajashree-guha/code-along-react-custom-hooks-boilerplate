@@ -5,6 +5,7 @@ function App() {
   const [text, setText] = useStorage("text", "");
   return (
     <div>
+      <h2>Enter text below</h2>
       <input
         type="text"
         value={text}
